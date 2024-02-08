@@ -1,6 +1,9 @@
 # Welcome to my Web Scraper 
 ## This project was made for my CS325 class, but it is a program that will take the link from a news article and output the raw text without any HTML tags. 
 
+### Before doing anything else:
+Make sure you have downloaded at least the requirement.yaml and the scraper.py. If you are wanting to run the example list, you can also download articles.txt.
+
 ### How to set up the environment to run the program:
 First, make sure you have miniconda installed and running. Once the terminal for miniconda is open, you will need to run the command "conda env create -f requirement.yaml" or, if you want to rename the environment, "conda env create -n (Your_Environment_Name) -f requirement.yaml".
 
