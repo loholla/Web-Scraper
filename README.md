@@ -8,8 +8,7 @@ Once the conda environment is created, run "conda activate (environment_name)". 
 
 Now that the environment is open, you will have to use the command "cd" to get into the folder containing the scraper.py file. In this same file, you should make (or add) the list of articles in a .txt file.
 
-In the .txt file, paste the URLs of the news articles you want to scrape.
-#### Note, this will only work with CNN news articles
+In the .txt file, paste the URLs of the news articles you want to scrape. #### Note, this will only work with CNN news articles
 
 ### Runing the program:
 To run the program, in miniconda type "python scraper.py", and then the program will prompt you to input a file destination. If you use my example file, the input should be "articles.txt" (Do not put in the quotation marks, or it won't accept it).
